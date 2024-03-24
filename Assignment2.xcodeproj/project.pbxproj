@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FDBFBB82BB0C657009F5FB2 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBFBB72BB0C657009F5FB2 /* Converter.swift */; };
+		1FDBFBBA2BB0C696009F5FB2 /* ConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBFBB92BB0C696009F5FB2 /* ConverterViewModel.swift */; };
+		1FDBFBBC2BB0C6C4009F5FB2 /* ConvertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBFBBB2BB0C6C4009F5FB2 /* ConvertModel.swift */; };
+		1FDBFBBE2BB0C6E4009F5FB2 /* CurrencyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBFBBD2BB0C6E4009F5FB2 /* CurrencyItem.swift */; };
+		1FDBFBC22BB0C7E7009F5FB2 /* CryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBFBC12BB0C7E7009F5FB2 /* CryptoModel.swift */; };
+		1FDBFBC42BB0C887009F5FB2 /* CryptoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBFBC32BB0C887009F5FB2 /* CryptoItem.swift */; };
+		1FDBFBC62BB0D23E009F5FB2 /* CryptoConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBFBC52BB0D23E009F5FB2 /* CryptoConverterViewModel.swift */; };
+		1FDBFBC82BB0D264009F5FB2 /* CurrencyConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBFBC72BB0D264009F5FB2 /* CurrencyConverterViewModel.swift */; };
 		AC8A63A629B59BEC00C32694 /* Assignment2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A63A529B59BEC00C32694 /* Assignment2App.swift */; };
 		AC8A63A829B59BEC00C32694 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A63A729B59BEC00C32694 /* ContentView.swift */; };
 		AC8A63AA29B59BED00C32694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8A63A929B59BED00C32694 /* Assets.xcassets */; };
@@ -14,6 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FDBFBB72BB0C657009F5FB2 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		1FDBFBB92BB0C696009F5FB2 /* ConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewModel.swift; sourceTree = "<group>"; };
+		1FDBFBBB2BB0C6C4009F5FB2 /* ConvertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertModel.swift; sourceTree = "<group>"; };
+		1FDBFBBD2BB0C6E4009F5FB2 /* CurrencyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyItem.swift; sourceTree = "<group>"; };
+		1FDBFBC12BB0C7E7009F5FB2 /* CryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModel.swift; sourceTree = "<group>"; };
+		1FDBFBC32BB0C887009F5FB2 /* CryptoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoItem.swift; sourceTree = "<group>"; };
+		1FDBFBC52BB0D23E009F5FB2 /* CryptoConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoConverterViewModel.swift; sourceTree = "<group>"; };
+		1FDBFBC72BB0D264009F5FB2 /* CurrencyConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterViewModel.swift; sourceTree = "<group>"; };
 		AC8A63A229B59BEC00C32694 /* Assignment2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8A63A529B59BEC00C32694 /* Assignment2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment2App.swift; sourceTree = "<group>"; };
 		AC8A63A729B59BEC00C32694 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +69,14 @@
 			children = (
 				AC8A63A529B59BEC00C32694 /* Assignment2App.swift */,
 				AC8A63A729B59BEC00C32694 /* ContentView.swift */,
+				1FDBFBB72BB0C657009F5FB2 /* Converter.swift */,
+				1FDBFBB92BB0C696009F5FB2 /* ConverterViewModel.swift */,
+				1FDBFBC52BB0D23E009F5FB2 /* CryptoConverterViewModel.swift */,
+				1FDBFBC72BB0D264009F5FB2 /* CurrencyConverterViewModel.swift */,
+				1FDBFBBB2BB0C6C4009F5FB2 /* ConvertModel.swift */,
+				1FDBFBC12BB0C7E7009F5FB2 /* CryptoModel.swift */,
+				1FDBFBBD2BB0C6E4009F5FB2 /* CurrencyItem.swift */,
+				1FDBFBC32BB0C887009F5FB2 /* CryptoItem.swift */,
 				AC8A63A929B59BED00C32694 /* Assets.xcassets */,
 				AC8A63AB29B59BED00C32694 /* Preview Content */,
 			);
@@ -95,7 +119,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					AC8A63A129B59BEC00C32694 = {
 						CreatedOnToolsVersion = 14.2;
@@ -137,8 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FDBFBC62BB0D23E009F5FB2 /* CryptoConverterViewModel.swift in Sources */,
 				AC8A63A829B59BEC00C32694 /* ContentView.swift in Sources */,
+				1FDBFBB82BB0C657009F5FB2 /* Converter.swift in Sources */,
+				1FDBFBC22BB0C7E7009F5FB2 /* CryptoModel.swift in Sources */,
+				1FDBFBC82BB0D264009F5FB2 /* CurrencyConverterViewModel.swift in Sources */,
+				1FDBFBC42BB0C887009F5FB2 /* CryptoItem.swift in Sources */,
 				AC8A63A629B59BEC00C32694 /* Assignment2App.swift in Sources */,
+				1FDBFBBA2BB0C696009F5FB2 /* ConverterViewModel.swift in Sources */,
+				1FDBFBBC2BB0C6C4009F5FB2 /* ConvertModel.swift in Sources */,
+				1FDBFBBE2BB0C6E4009F5FB2 /* CurrencyItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +213,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -241,6 +274,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
