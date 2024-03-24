@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1FDBFBB82BB0C657009F5FB2 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBFBB72BB0C657009F5FB2 /* Converter.swift */; };
-		1FDBFBBA2BB0C696009F5FB2 /* ConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBFBB92BB0C696009F5FB2 /* ConverterViewModel.swift */; };
 		1FDBFBBC2BB0C6C4009F5FB2 /* ConvertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBFBBB2BB0C6C4009F5FB2 /* ConvertModel.swift */; };
 		1FDBFBBE2BB0C6E4009F5FB2 /* CurrencyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBFBBD2BB0C6E4009F5FB2 /* CurrencyItem.swift */; };
 		1FDBFBC22BB0C7E7009F5FB2 /* CryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDBFBC12BB0C7E7009F5FB2 /* CryptoModel.swift */; };
@@ -23,7 +22,6 @@
 
 /* Begin PBXFileReference section */
 		1FDBFBB72BB0C657009F5FB2 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
-		1FDBFBB92BB0C696009F5FB2 /* ConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewModel.swift; sourceTree = "<group>"; };
 		1FDBFBBB2BB0C6C4009F5FB2 /* ConvertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertModel.swift; sourceTree = "<group>"; };
 		1FDBFBBD2BB0C6E4009F5FB2 /* CurrencyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyItem.swift; sourceTree = "<group>"; };
 		1FDBFBC12BB0C7E7009F5FB2 /* CryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModel.swift; sourceTree = "<group>"; };
@@ -70,9 +68,8 @@
 				AC8A63A529B59BEC00C32694 /* Assignment2App.swift */,
 				AC8A63A729B59BEC00C32694 /* ContentView.swift */,
 				1FDBFBB72BB0C657009F5FB2 /* Converter.swift */,
-				1FDBFBB92BB0C696009F5FB2 /* ConverterViewModel.swift */,
-				1FDBFBC52BB0D23E009F5FB2 /* CryptoConverterViewModel.swift */,
 				1FDBFBC72BB0D264009F5FB2 /* CurrencyConverterViewModel.swift */,
+				1FDBFBC52BB0D23E009F5FB2 /* CryptoConverterViewModel.swift */,
 				1FDBFBBB2BB0C6C4009F5FB2 /* ConvertModel.swift */,
 				1FDBFBC12BB0C7E7009F5FB2 /* CryptoModel.swift */,
 				1FDBFBBD2BB0C6E4009F5FB2 /* CurrencyItem.swift */,
@@ -168,7 +165,6 @@
 				1FDBFBC82BB0D264009F5FB2 /* CurrencyConverterViewModel.swift in Sources */,
 				1FDBFBC42BB0C887009F5FB2 /* CryptoItem.swift in Sources */,
 				AC8A63A629B59BEC00C32694 /* Assignment2App.swift in Sources */,
-				1FDBFBBA2BB0C696009F5FB2 /* ConverterViewModel.swift in Sources */,
 				1FDBFBBC2BB0C6C4009F5FB2 /* ConvertModel.swift in Sources */,
 				1FDBFBBE2BB0C6E4009F5FB2 /* CurrencyItem.swift in Sources */,
 			);
