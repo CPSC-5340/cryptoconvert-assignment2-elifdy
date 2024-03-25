@@ -10,7 +10,7 @@ import SwiftUI
 struct CurrencyItem: View {
 
 //    var card: ConvertModel
-    var card: ConvertModel<CurrencyItemModel>
+    var card: CurrencyModel<CurrencyItemModel>
     var body: some View {
         
         if card.isFront {
@@ -22,9 +22,9 @@ struct CurrencyItem: View {
     }
 }
 
-struct ContentItem_Previews: PreviewProvider {
+struct CurrencyItem_Previews: PreviewProvider {
     static var previews: some View {
-        CurrencyItem(card: ConvertModel(cardContent: CurrencyItemModel(currencyName: "", currencyCode: "", counrtyFlag: "", multiplier: 1)))
+        CurrencyItem(card: CurrencyModel(cardContent: CurrencyItemModel(currencyName: "", currencyCode: "", counrtyFlag: "", multiplier: 1)))
     }
 }
 

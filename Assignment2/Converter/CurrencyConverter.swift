@@ -1,5 +1,5 @@
 //
-//  Converter.swift
+//  CurrencyConverter.swift
 //  Assignment2
 //
 //  Created by Elif Dede on 3/24/24.
@@ -7,9 +7,15 @@
 
 import SwiftUI
 
-struct Converter: View {
-    @ObservedObject var viewModel = ConverterViewModel()
+struct CurrencyConverter: View {
+    @Environment(\.presentationMode) var presentationMode
+    @ObservedObject var viewModel = CurrencyConverterViewModel()
     var body: some View {
+        VStack{
+            Text("1 USD Exchange Rate")
+                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                .padding()
+        }
         ScrollView{
             LazyVGrid(columns:[GridItem(.adaptive(minimum: 150))]){
                 ForEach(viewModel.listOfCards){
@@ -18,13 +24,7 @@ struct Converter: View {
                             viewModel.flip(card: card)
                         }
                 }
-//                CurrencyItem()
-//                CurrencyItem()
-//                CurrencyItem()
-//                CurrencyItem()
-//                CurrencyItem()
-//                CurrencyItem()
-                
+           
             }
         }
         .onAppear{
@@ -33,8 +33,8 @@ struct Converter: View {
     }
 }
 
-struct ContentViewPreviews: PreviewProvider {
+struct CurrencyConverter_Previews: PreviewProvider {
     static var previews: some View {
-        Converter()
+        CurrencyConverter()
     }
 }
